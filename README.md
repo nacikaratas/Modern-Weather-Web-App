@@ -83,4 +83,4 @@ Sorularınız veya geri bildirimleriniz için [issues](https://github.com/nacika
 
 Hava durumu verileri [Open-Meteo](https://open-meteo.com/) tarafından sağlanmaktadır.
 
-Geliştirici: [İsim Soyisim](https://github.com/nacikaratas) 
+Geliştirici: [Naci Karataş](https://github.com/nacikaratas) 
