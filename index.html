@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Türkiye Hava Durumu</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%233498db%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 class=%22lucide lucide-cloud-sun%22><path d=%22M12 2v2%22/><path d=%22m4.93 4.93 1.41 1.41%22/><path d=%22M20 12h2%22/><path d=%22m19.07 4.93-1.41 1.41%22/><path d=%22M15.947 12.65a4 4 0 0 0-5.925-4.128%22/><path d=%22M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z%22/><path d=%22M17 18.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z%22/></svg>" type="image/svg+xml">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+    
+    <div class="background-overlay"></div>
+
+    <div class="main-layout">
+        <h1>Türkiye Hava Durumu</h1>
+
+        
+        <div class="selection-card card-base">
+            <label for="city-select">
+                <i data-lucide="map-pin" class="label-icon"></i>
+                Şehir Seçin:
+            </label>
+            <select id="city-select">
+                <option value="">-- Lütfen Bir Şehir Seçin --</option>
+                
+            </select>
+        </div>
+
+        
+        <div id="weather-card" class="weather-card card-base state-initial">
+            
+            <div class="card-placeholder">
+                <i data-lucide="cloud-sun"></i>
+                <p>Hava durumu bilgisi için bir şehir seçiniz.</p>
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            Hava durumu verileri <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a> tarafından sağlanmaktadır.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
