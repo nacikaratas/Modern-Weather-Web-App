@@ -6,7 +6,9 @@
 
 Modern bir arayüz ile Türkiye'deki tüm illerin anlık hava durumu bilgilerini görüntüleyen web uygulaması. Şık kart tasarımı ve farklı hava koşullarında değişen görsel temalarla kullanıcı dostu bir deneyim sunar.
 
-![Uygulama Görünümü](https://via.placeholder.com/800x400/3498db/FFFFFF?text=Hava+Durumu+Uygulamas%C4%B1)
+![Uygulama Görünümü]
+
+![Image](https://github.com/user-attachments/assets/faba954d-58b4-42de-978a-85165afba676)
 
 ## Özellikler
 
